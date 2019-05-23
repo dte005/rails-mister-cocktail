@@ -21,12 +21,6 @@ class CocktailsController < ApplicationController
     end
   end
 
-  def edit
-  end
-
-  def update
-  end
-
   def destroy
     @cocktail.destroy
   end
