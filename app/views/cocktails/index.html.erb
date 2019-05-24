@@ -11,9 +11,14 @@
       <div style="background: linear-gradient(135deg,rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 60%), url('<%= c.url %>'); background-size: cover; width: 400px; height: 300px; margin: 10px; display: flex; justify-content: center; align-items: center; box-shadow: 0 0 8px rgba(0, 0, 0.4);" id="card-d-img">
         <h5 style="font-size: 20px;"><%= link_to c.name, cocktail_path(c.id), id:"card-d-title" %></h5>
       </div>
+      <%= cl_image_tag(<%= c.url %>,
+      width: 400, height: 300, crop: :fill) %>
     <% end %>
   </div>
 </div>
+
+<!-- style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),
+         url('<%= cl_image_path @article.photo, height: 300, width: 400, crop: :fill %>')"> -->
 
 
 
