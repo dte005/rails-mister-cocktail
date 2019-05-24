@@ -1,0 +1,24 @@
+.banner{
+  background: linear-gradient(135deg,rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 60%),
+              url("https://picsum.photos/1000/500?image=660");
+  background-size: cover;
+  align-items: center;
+  color:white;
+  height: 400px;
+  h1{
+    font-size: 100px;
+  }
+}
+
+#card-d-title{
+  color: white;
+  text-decoration: none;
+}
+
+#card-d-title:hover{
+  color:blue;
+}
+
+#card-d-img:hover{
+  opacity: 0.8;
+}

@@ -1,6 +1,17 @@
 .navbar-lewagon {
   justify-content: space-between;
+  align-items: center;
   background: white;
+
+}
+
+#create{
+  text-decoration: none;
+  color: grey;
+}
+
+#create:hover{
+  color: blue;
 }
 
 .navbar-lewagon .navbar-collapse {

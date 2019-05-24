@@ -3,6 +3,7 @@
     <h1>Cocktail</h1>
   </div>
   <div>
+    <img src='<%= @cocktail.url %>' alt='image for cocktail' class="img-thumbnail rounded float-left" style="width:300px; height: 200px;">
     <%= @cocktail.name %>
     <div>
     <%= link_to 'add description', new_cocktail_dose_path(@cocktail.id) %>
