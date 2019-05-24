@@ -20,10 +20,10 @@ end
 
 puts "Created #{Ingredient.count} ingredients"
 
-puts 'Creating cocktails'
+# puts 'Creating cocktails'
 
-  10.times do
-    Cocktail.create(name: "#{Faker::Beer.name}")
-  end
+#   10.times do
+#     Cocktail.create(name: "#{Faker::Beer.name}")
+#   end
 
-puts "Created #{Cocktail.count} cocktails"
+# puts "Created #{Cocktail.count} cocktails"
